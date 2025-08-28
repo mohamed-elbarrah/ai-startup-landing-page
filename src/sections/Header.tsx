@@ -3,9 +3,9 @@ import MenuIcon from "@/assets/icon-menu.svg";
 import Button from "@/components/Button";
 export const Header = () => {
   return (
-    <header className="p-4 border-b border-white/15 md:border-none">
+    <header className="p-4 border-b border-white/15 md:border-none sticky top-0 z-50">
       <div className="md:container">
-        <div className="flex justify-between items-center md:border border-white/15 rounded-xl p-2.5 max-w-2xl mx-auto ">
+        <div className="flex justify-between items-center md:border border-white/15 rounded-xl p-2.5 max-w-2xl mx-auto backdrop-blur ">
           <div className="border h-10 w-10 rounded-lg inline-flex justify-center items-center border-white/15">
             <LogoIcon className="w-8 h-8 cursor-pointer" />
           </div>
